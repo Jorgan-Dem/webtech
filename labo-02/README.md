@@ -17,17 +17,17 @@ Welke elementen raakt elke selector? Eén zin per selector.
 Vul de eerste twee kolommen in vóór je de pagina opent. Trede: herkomst, specificiteit, volgorde of overerving (of iets anders, benoem het).
 
 | vraag | mijn voorspelling (kleur) | beslissende trede | uitkomst in de browser | juist? |
-|---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
-| 9 | | | | |
-| 10 | | | | |
+| ----- | ------------------------- | ----------------- | ---------------------- | ------ |
+| 1     | green                     | volgorde          | green                  | Ja     |
+| 2     | blue                      | volgorde          | blue                   | Ja     |
+| 3     | red                       | specificiteit     | red                    | Ja     |
+| 4     | red                       | ander niet juist  | red                    | Ja     |
+| 5     | blue                      | volgorde          | blue                   | Ja     |
+| 6     | blue                      | specificiteit     | blue                   | Ja     |
+| 7     | red                       | enige selector    | red                    | Ja     |
+| 8     | red                       | enige selector    | blue                   | Nee    |
+| 9     | blue                      | volgorde          | red                    | Nee    |
+| 10    | green                     | geen 2!!          | green                  | Ja     |
 
 Bij welke vraag zat je fout, en wat was de reden? (Alles juist? Welke vraag duurde het langst, en waarom?)
 
@@ -45,8 +45,8 @@ Bij welke vraag zat je fout, en wat was de reden? (Alles juist? Welke vraag duur
 
 Prompt en onbewerkte output staan in `review/`. Minstens vijf bevindingen, elk met een verwijzing naar de sectie of het foutnummer:
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1.
+2.
+3.
+4.
+5.
