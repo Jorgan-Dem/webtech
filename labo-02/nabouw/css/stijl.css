@@ -1,10 +1,67 @@
-:root{
-    --color-paper: #fbf7f0;
-    --color-ink: #2b2b2b;
-    --color-muted: #6b6b6b;
-    --color-accent: #b5451b;
-    --color-zebra: #f1e9dc;
-    --font-body: verdana;
-    --font-heading: georgia;
+:root {
+  --color-paper: #fbf7f0;
+  --color-ink: #2b2b2b;
+  --color-muted: #6b6b6b;
+  --color-accent: #b5451b;
+  --color-zebra: #f1e9dc;
+  --font-body: verdana, sans-serif;
+  --font-heading: georgia, sans-serif;
 }
 
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  line-height: 1.6rem;
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  font-weight: normal;
+}
+
+main a {
+  color: var(--color-accent);
+}
+
+header a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main article h3 {
+  color: var(--color-muted);
+}
+
+.kaart li:nth-child(2n + 1) {
+  background-color: var(--color-zebra);
+}
+
+.kaart span {
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+main article p:nth-child(3) {
+  font-size: 0.75rem;
+}
+
+strong {
+  color: var(--color-accent);
+}
+
+footer {
+  color: var(--color-muted);
+  text-align: center;
+}
+
+footer a {
+  color: var(--color-muted);
+}
+
+#bonen + p {
+  font-size: 0.75rem;
+}
